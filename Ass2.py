@@ -111,7 +111,7 @@ while True:
     print('\n')             # Switch Case for choosing the what API function to call
     selected_key = input("Enter a key (0 for Exit, 1 for Cart Details, 2 for Delete Cart, 3 for Product Details, 4 for Add product to cart, 5 for Updating Cart Quantity, 6 for Order Details, 7 for Placing Order): ")
     selected_key = int(selected_key)
-    # Create a dictionary that maps keys to functions
+    # Create a case that maps keys to functions
 
     match selected_key:
         case 0:
